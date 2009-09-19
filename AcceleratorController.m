@@ -1,5 +1,5 @@
 #import "AcceleratorController.h"
-#import "mousefix.h"
+#import "imousefix.h"
 
 static BOOL isQuitting = NO;
 
