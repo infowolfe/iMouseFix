@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 678}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 126}";
+		};
+	};
+	290DB6AA1064E4AE0055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AC608A583BA00622C5C /* imousefix.c */;
+		name = "mousefix.c: 63";
+		rLen = 0;
+		rLoc = 2375;
+		rType = 0;
+		vrLen = 2090;
+		vrLoc = 947;
+	};
+	290DB6AD1064E4AE0055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AB208A57DD100622C5C /* AcceleratorController.m */;
+		name = "AcceleratorController.m: 17";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 1977;
+		vrLoc = 0;
+	};
+	290DB6B91064E5430055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	290DB6BA1064E5430055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	290DB6BB1064E5430055502F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 54904AEA08A59FDB00622C5C /* iMouseFix.icns */;
+	};
+	290DB6BC1064E5430055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AB108A57DD100622C5C /* AcceleratorController.h */;
+		name = "AcceleratorController.h: 11";
+		rLen = 0;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 159;
+		vrLoc = 0;
+	};
+	290DB6BD1064E5430055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* iMousefix_Prefix.pch */;
+		name = "iMousefix_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 149;
+		vrLoc = 0;
+	};
+	290DB6BE1064E5430055502F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSMainNibFile,
+		);
+		name = /Users/infowolfe/Code/iMouseFix/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	290DB6BF1064E5430055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AC608A583BA00622C5C /* imousefix.c */;
+		name = "imousefix.c: 126";
+		rLen = 0;
+		rLoc = 4418;
+		rType = 0;
+		vrLen = 1644;
+		vrLoc = 3463;
+	};
+	290DB6C01064E5430055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AC808A583F700622C5C /* imousefix.h */;
+		name = "imousefix.h: 17";
+		rLen = 0;
+		rLoc = 442;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	290DB6C11064E5430055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AC808A583F700622C5C /* imousefix.h */;
+		name = "imousefix.h: 17";
+		rLen = 0;
+		rLoc = 442;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	290DB6CC1064EE4B0055502F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AC808A583F700622C5C /* imousefix.h */;
+		name = "imousefix.h: 17";
+		rLen = 0;
+		rLoc = 442;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 0;
+	};
+	299F793D1064C2A900CD2DFA /* iMouseFix */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iMouseFix;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	299F79521064C2AA00CD2DFA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	299F79531064C2AA00CD2DFA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	299F796E1064C57800CD2DFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AB208A57DD100622C5C /* AcceleratorController.m */;
+		name = "AcceleratorController.m: 15";
+		rLen = 0;
+		rLoc = 497;
+		rType = 0;
+		vrLen = 1655;
+		vrLoc = 0;
+	};
+	299F79AB1064D3DF00CD2DFA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 54904AB208A57DD100622C5C /* AcceleratorController.m */;
+	};
+	299F7AF51064E23800CD2DFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AC608A583BA00622C5C /* imousefix.c */;
+		name = "mousefix.c: 205";
+		rLen = 0;
+		rLoc = 7425;
+		rType = 0;
+		vrLen = 1272;
+		vrLoc = 6218;
+	};
+	299F7B151064E31200CD2DFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AC608A583BA00622C5C /* imousefix.c */;
+		name = "mousefix.c: 63";
+		rLen = 0;
+		rLoc = 2375;
+		rType = 0;
+		vrLen = 2015;
+		vrLoc = 947;
+	};
+	299F7B161064E31200CD2DFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 54904AB208A57DD100622C5C /* AcceleratorController.m */;
+		name = "AcceleratorController.m: 17";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 1977;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = 299F793D1064C2A900CD2DFA /* iMouseFix */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = 8D1107260486CEB800E47090 /* iMouseFix */;
+		codeSenseManager = 299F79531064C2AA00CD2DFA /* Code sense */;
+		executables = (
+			299F793D1064C2A900CD2DFA /* iMouseFix */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1153,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1113,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 275047597;
+			PBXWorkspaceStateSaveDate = 275047597;
+		};
+		perUserProjectItems = {
+			290DB6AA1064E4AE0055502F /* PBXTextBookmark */ = 290DB6AA1064E4AE0055502F /* PBXTextBookmark */;
+			290DB6AD1064E4AE0055502F /* PBXTextBookmark */ = 290DB6AD1064E4AE0055502F /* PBXTextBookmark */;
+			290DB6B91064E5430055502F /* PBXTextBookmark */ = 290DB6B91064E5430055502F /* PBXTextBookmark */;
+			290DB6BA1064E5430055502F /* PBXTextBookmark */ = 290DB6BA1064E5430055502F /* PBXTextBookmark */;
+			290DB6BB1064E5430055502F /* PBXBookmark */ = 290DB6BB1064E5430055502F /* PBXBookmark */;
+			290DB6BC1064E5430055502F /* PBXTextBookmark */ = 290DB6BC1064E5430055502F /* PBXTextBookmark */;
+			290DB6BD1064E5430055502F /* PBXTextBookmark */ = 290DB6BD1064E5430055502F /* PBXTextBookmark */;
+			290DB6BE1064E5430055502F /* PlistBookmark */ = 290DB6BE1064E5430055502F /* PlistBookmark */;
+			290DB6BF1064E5430055502F /* PBXTextBookmark */ = 290DB6BF1064E5430055502F /* PBXTextBookmark */;
+			290DB6C01064E5430055502F /* PBXTextBookmark */ = 290DB6C01064E5430055502F /* PBXTextBookmark */;
+			290DB6C11064E5430055502F /* PBXTextBookmark */ = 290DB6C11064E5430055502F /* PBXTextBookmark */;
+			290DB6CC1064EE4B0055502F /* PBXTextBookmark */ = 290DB6CC1064EE4B0055502F /* PBXTextBookmark */;
+			299F796E1064C57800CD2DFA = 299F796E1064C57800CD2DFA /* PBXTextBookmark */;
+			299F79AB1064D3DF00CD2DFA = 299F79AB1064D3DF00CD2DFA /* PBXBookmark */;
+			299F7AF51064E23800CD2DFA = 299F7AF51064E23800CD2DFA /* PBXTextBookmark */;
+			299F7B151064E31200CD2DFA = 299F7B151064E31200CD2DFA /* PBXTextBookmark */;
+			299F7B161064E31200CD2DFA = 299F7B161064E31200CD2DFA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 299F79521064C2AA00CD2DFA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 678}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* iMousefix_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 653}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 149}";
+		};
+	};
+	54904AB108A57DD100622C5C /* AcceleratorController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 653}}";
+			sepNavSelRange = "{159, 0}";
+			sepNavVisRange = "{0, 159}";
+			sepNavWindowFrame = "{{1615, 0}, {1024, 1200}}";
+		};
+	};
+	54904AB208A57DD100622C5C /* AcceleratorController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1526, 1065}}";
+			sepNavSelRange = "{692, 0}";
+			sepNavVisRange = "{0, 1981}";
+			sepNavWindowFrame = "{{1615, 7}, {1585, 1193}}";
+		};
+	};
+	54904AC608A583BA00622C5C /* imousefix.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 2652}}";
+			sepNavSelRange = "{4418, 0}";
+			sepNavVisRange = "{3463, 1644}";
+			sepNavWindowFrame = "{{1615, 2}, {1585, 1193}}";
+		};
+	};
+	54904AC808A583F700622C5C /* imousefix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1331, 653}}";
+			sepNavSelRange = "{442, 0}";
+			sepNavVisRange = "{0, 480}";
+		};
+	};
+	8D1107260486CEB800E47090 /* iMouseFix */ = {
+		activeExec = 0;
+		executables = (
+			299F793D1064C2A900CD2DFA /* iMouseFix */,
+		);
+	};
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iMousefix' target in the 'iMousefix' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,154 @@
+
+MouseFix
+--------
+
+Version 1.2.1 - 19/09/2009
+
+Updated mousefix so it will compile/run on 10.6 (Intel-only, sorry)
+- Allen "Chip" Parker - infowolfe+mousefix@gmail.com
+
+Version 1.2 - 20/08/2006
+
+Copyright (c) 2005 - Richard Bentley - mousefix@knockknock.org.uk
+
+CHANGE LOG
+----------
+23/07/2005 - V 1.0 - Initial version
+16/02/2006 : V 1.1 - Lance Burns suggested enabling the acceleration table (this was disabled
+                     in V 1.0) and setting the values within it to {1, 1}, {2, 1}. This seems
+                     to generate a more linear response. I have no idea why this works and
+                     neither has Lance Burns (!) but there you go. Maybe if the mouse driver
+                     wasn't so badly written then we could make sense of it :-)
+20/08/2006 : V 1.2 - Aaron Johnson suggested a modification to the acceleration curve based
+                     on similar data used in MS Windows XP. See the source code for further
+                     details. He has suggested that it works best with an acceleration factor
+                     of 2 (the source code has been modified to this value, but it may be
+                     altered on the command line when executing mousefix). Many thanks to
+                     Aaron Johnson for this suggestion.
+
+TERMS OF USE
+------------
+This software is provided as-is and is used entirely at your own risk.
+
+This software may be freely distributed, however no payment may be demanded or offered for it
+(either monetary, in kind, through offers of any weird sex acts, or anything else).
+
+INTRODUCTION
+------------
+MouseFix is a very simple command line program that will allow you to switch off or adjust the
+terrible mouse control of Mac OS-X. Note that even with MouseFix, the mouse movement can still
+be pretty ropey, so either I've not hit on the optimal values to use or the driver is just not
+very good.
+
+Copies of this software may be found at www.knockknock.org.uk/mac/
+
+INSTALLING
+----------
+As you are reading this, it is assumed that you have managed to unpack MouseFix from its archive
+
+COMPILING
+---------
+If you are building from source then you will first need to make sure you have the developer kit
+installed. This is available on the standard OS-X DVD that comes with your machine. There is rather
+a lot of it though so unless you intend doing some other development work or you find that you
+absolutely must build from source, you may not want to bother, in which case get hold of the
+pre-compiled version of MouseFix from www.knockknock.org.uk/mac/
+
+If you look at the top of the source file you will see the configuration parameters that you can
+adjust. I have tried to comment them as best I can but I'm not familiar with OS-X's driver
+architecture so apologies if I am wide of the mark. Anyway, the stuff is there if you want it.
+
+To compile:
+> cc mousefix.c -o mousefix /usr/lib/libIOKit.A.dylib
+
+Optionally (to reduce the executable size - not that it matters)...
+> strip mousefix
+
+...or run the make script included with the source, thus:
+
+> ./make
+
+INSTALLING
+----------
+There isn't actually any 'installation' required as such. the 'mousefix' executable is self
+contained and works as it is.
+
+To run it from the command line, type the following:
+
+This will fix the mouse settings with default values that may well be ok for you...
+> ./mousefix
+
+This will fix the mouse settings using an acceleration factor of 3.5...
+> ./mousefix 3.5
+
+This will print some help...
+> ./mousefix h
+
+STARTING MOUSEFIX AUTOMATICALLY AT STARTUP
+------------------------------------------
+Once you have found some settings that work for you then you will probably want to have them set
+automatically at startup (they will be lost when you power off). To do this:
+
+1/ Copy the 'mousefix' executable somewhere where it's not likely to be in the way, such as
+   /Applications or maybe a local 'utilities' directory or suchlike.
+
+   Note that you will have to be an admin user to copy mousefix to /Applications
+
+Before diving in, I suggest you read both the following options and choose which one you want to
+use :-)
+
+2A/ METHOD #1 - The broken 'Mac' way (doesn't inspire confidence, does it?)...
+   Open 'System Preferences'
+   - Select 'Accounts' from the 'System' category
+   - Select the appropriate account (you will need to be an admin user to select any account
+     other than your own)
+   - Select the 'Login Items' tab
+   - Click on the '+' and find the MouseFix program and select 'Add'
+
+   There are two problems with this method.
+   * Firstly, you can't specify any parameters to mousefix when it starts (or at least if you can,
+     I don't know how you do it). So, if you are not happy with the defaults that are defined in
+     mousefix then you have a problem. The only solution is to modify the source code to match
+     what you want and rebuild it
+   * The second problem is that after starting, you are left with a console window open on the
+     screen that you can't do anything with except close! Not a big problem, but annoying.
+     I don't know how to stop this happening either.
+
+2B/ METHOD #2 - The simple, common sense way...
+   If you look in your home directory you may find a file called '.profile' (note the preceding
+   '.' in the name - it is important!)
+
+   If this file already exists then load it into an editor. If it doesn't then create it. A quick
+   way of creating it is to open a command line and type:
+
+   > touch .profile
+
+   At the end of the '.profile' file, add the following:
+
+   /Applications/mousefix
+
+   ...or if you want to specify a different acceleration factor (eg - 3.5), then...
+
+   /Applications/mousefix 3.5
+
+   There are no problems with this method (assuming you are using the default bash shell, and
+   if you aren't using the default shell then you probably know what you're doing anyway and
+   won't be reading this)
+
+   ...and as you've probably surmised by now, this works without leaving a console on the
+   screen at boot up, and there are no problems with specifying parameters to mousefix from
+   within the .profile file (well, there wouldn't be, would there?)
+
+UNINSTALLING
+------------
+Someone complained about not being able to uninstall MouseFix. Well, to 'uninstall' it, you :
+1/ Stop executing it
+2/ Delete the executable
+
+Errr... that really is all there is to it. Honest!
+
+----------------------
+
+Well, that's it!
+
+--- END ---
